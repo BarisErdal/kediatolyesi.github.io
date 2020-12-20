@@ -1,0 +1,62 @@
+body,
+html {
+  width: 100%; /* ekrandan bakınca sayfa , ekranın tamamını kapladığından emşn olmak için yapılır. önerilir. */
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(kedi2.jpg) no-repeat center center fixed;
+/*   backdrop-filter: blur(10px);  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1 {
+
+  font-size: 4rem;
+  color: #ffffffd0;
+}
+
+.buffer {
+
+  height: 150px;
+}
+
+ hr {
+
+border-color: #0000008c;
+border-width: 3px;
+max-width: 180px;
+
+
+} 
+
+.btn {
+font-size: 1.5rem;
+border-radius: 300px;
+/* text-transform: uppercase; */
+
+
+} 
+
+
+.btn-primary {
+
+  background-color: #00000087;
+  border-color: #00000087;
+}
+
+
+.btn-primary:hover {
+
+  background-color: #000000e0;
+  border-color:  #000000e0;
+  border-width: 3px;
+}
+
+.btn-ozel {
+
+  padding: 1rem 2rem;/* yanlar, üst için  */
+  
+}
